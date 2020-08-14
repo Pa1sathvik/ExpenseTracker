@@ -6,8 +6,9 @@ import org.springframework.cache.annotation.EnableCaching;
 
 /**
  * 
- * Main Spring boot application.
- * @author svutukur
+ * Main Spring boot application for Expense tracker.
+ * 
+ * @author Vutukuri Sathvik.
  *
  */
 @EnableCaching
