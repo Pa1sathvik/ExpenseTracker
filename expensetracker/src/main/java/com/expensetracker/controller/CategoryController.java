@@ -23,7 +23,7 @@ import com.expensetracker.repository.CategoryRepository;
 
 @RestController
 @RequestMapping("/api")
-public class ExpenseTrackerRestController {
+public class CategoryController {
 
 	@Autowired
 	private CategoryRepository categoryRepository;

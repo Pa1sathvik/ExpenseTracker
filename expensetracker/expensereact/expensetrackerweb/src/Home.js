@@ -5,6 +5,11 @@ export default class Home extends Component {
   state = {};
 
   render() {
-    return <AppNav />;
+    return (
+      <div>
+        <AppNav />
+        <h2 style={{display:"flex",alignContent:'center',textAlign:"center"}}>Welcome to Easy expenses App!!</h2>
+      </div>
+    );
   }
 }
