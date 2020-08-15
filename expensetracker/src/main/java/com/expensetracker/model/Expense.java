@@ -31,6 +31,7 @@ public class Expense {
 
 	private String description;
 	
+	
 	private String location;
 	
 	@ManyToOne(cascade = CascadeType.PERSIST)
