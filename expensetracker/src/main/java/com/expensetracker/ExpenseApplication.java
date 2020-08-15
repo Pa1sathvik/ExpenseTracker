@@ -11,7 +11,6 @@ import org.springframework.cache.annotation.EnableCaching;
  * @author Vutukuri Sathvik.
  *
  */
-@EnableCaching
 @SpringBootApplication
 public class ExpenseApplication {
 	public static void main(String[] args) {
